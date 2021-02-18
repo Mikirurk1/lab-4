@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MegaCalculator</title>
+    <link rel="stylesheet" href="css/megaCalculator.css">
+    <script src="js/megaCalculator.js" defer></script>
+    <link rel="shortcut icon" href="images/calculator.png" type="images/png">
+    </head>
+    <body>
+<header id="header" class="header">
+  <div class="header_container">
+    <div class="header_inner">
+    <div class="logo">
+      <img src="images/calculator.png" alt="Calculator" height="65">
+    <div class="header__logo-title"><h1>MegaCalculator</h1></div>
+</div>
+</div>
+</div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="selection">
+        <h1>Завдання №1</h1>
+      </div>
+      <div class="selection_info">
+<p> Для старту програми нажміть на кнопку<button onclick="exFirst()">Вивід</button></p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="selection">
+        <h1>Завдання №2</h1>
+      </div>
+      <div class="selection_info">
+        <h3>Заповніть всі поля<h3>
+        <p> Рядки: <input type="text"  id="n1"></p>
+        <p> Стовпці: <input type="text"  id="n2"></p>
+        <p><button onclick="exSecond()">Auto</button></p>
+        <p><button onclick="exSecond2()">NotAuto</button></p>
+
+      </div>
+          </div>
+        <div class="container">
+          <div class="selection">
+            <h1>Завдання №3</h1>
+          </div>
+          <div class="selection_info">
+            <h3>Заповніть поле розмірності матрці <h3>
+            <p> Рядки: <input type="text"  id="n111"></p>
+            <button onclick="exThird1()">Вивід</button>
+            </div>
+  </main>
+
+
+  <div class="footer"></div>
+      </body>
+</html>

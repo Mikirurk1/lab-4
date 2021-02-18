@@ -1,0 +1,59 @@
+.header{
+  width: 100%;
+position: absolute;
+top:0;
+left:0;
+z-index: 1000;
+background: orange;
+
+}
+.header_container{
+  padding: 18px 0;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo{
+  display: flex;
+}
+.header__logo-title{
+  padding: 10px 0;
+  margin-left: 5px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+h1{
+  margin: 0 auto;
+}
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+width: 100%;
+max-width : 1100px;
+padding-top: 155px;
+margin: 0 auto;
+}
+.selection{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Alice', serif;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+}
+.selection__info{
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  width: 100%;
+  position: absolute;
+  left:0;
+  padding: 120px 0px;
+ background: orange;
+}
